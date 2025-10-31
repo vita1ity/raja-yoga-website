@@ -387,7 +387,7 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: index * 0.05 }}
                 viewport={{ once: true }}
               >
-                <Card className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl overflow-hidden shadow-xl hover:bg-white/15 transition-all duration-300">
+                <Card className="backdrop-blur-xl py-0 bg-white/10 border border-white/20 rounded-2xl overflow-hidden shadow-xl hover:bg-white/15 transition-all duration-300">
                   <button
                     onClick={() => setExpandedModule(expandedModule === index ? null : index)}
                     className="w-full p-6 flex items-center justify-between text-left"

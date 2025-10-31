@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
+  "homepage": "https://vita1ity.github.io/raja-yoga-website",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "preview": "vite preview",
     "build": "vite build"
@@ -24,7 +27,8 @@
     "svg-pan-zoom": "^3.6.2",
     "tailwind-merge": "^3.3.0",
     "tailwindcss": "^4.1.7",
-    "framer-motion": "^12.23.24"
+    "framer-motion": "^12.23.24",
+    "gh-pages": "^6.3.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",

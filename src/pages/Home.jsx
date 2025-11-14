@@ -750,7 +750,8 @@ export default function Home() {
               </div>
 
               <div
-                data-ws-enroll='eyJjb3Vyc2VfaWQiOiI2Yjk3ZTAyMi02ODIwLTRmYWEtYWMyOC1iY2M0NTgxZDljNTAiLCJidXNpbmVzcyI6InJhamEteW9nYSIsImxhbmciOiJ1YSI9'
+                class="ws-embed-button-enroll"
+                data-ws-enroll='eyJjb3Vyc2VfaWQiOiI2Yjk3ZTAyMi02ODIwLTRmYWEtYWMyOC1iY2M0NTgxZDljNTAiLCJidXNpbmVzcyI6InJhamEteW9nYSJ9'
                 className="ws-embed-button-enroll w-full bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-semibold px-8 py-6 text-base md:text-base rounded-xl shadow-2xl border border-white/30 backdrop-blur-sm transform hover:scale-105 transition-all duration-300 cursor-pointer text-center"
               >
                 Оформити замовлення

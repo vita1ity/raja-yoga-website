@@ -717,8 +717,10 @@ export default function Home() {
               <div className="backdrop-blur-sm bg-white/5 rounded-2xl p-8 mb-8">
                 <div className="text-center mb-6">
                   <p className="text-white/80 text-base md:text-base mb-2">Вартість курсу</p>
-                  <p className="text-4xl md:text-4xl font-bold text-white mb-2">88 €</p>
+                  <p className="text-4xl md:text-4xl font-bold text-white mb-2">Вільний внесок</p>
                   <p className="text-white/70 text-sm md:text-sm">8 тижнів навчання</p>
+
+                    
                 </div>
                 
                 <div className="space-y-3 text-white/90 text-sm md:text-sm">
